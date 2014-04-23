@@ -3,4 +3,5 @@ description: "What if EU doesn't exist?"
 
 url: "/blog"
 
+markdown: kramdown
 paginate: 1
