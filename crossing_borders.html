@@ -1,0 +1,22 @@
+---
+lang: en, de, fr
+tag: "Crossing Borders"
+layout: default
+---
+{% for post in site.posts %}
+	{% if post.tags %}
+	 	{% for tag in post.tags %}
+	 		{% if tag == page.tag %}
+<h2>{{ post.title }}</h2>
+<h4>{{ post.date | date_to_long_string }}</h4>
+{% if post.content contains '<!--more-->' %}
+	{{ post.content | split:'<!--more-->' | first }}
+	<p><a href="{{ site.url }}{{ post.url }}">Continue reading...</a></p>
+{% else %}
+	{{ post.content }}
+{% endif %}
+    		{% endif %}
+    	{% endfor %}
+    {% endif %}
+{% endfor %}
+

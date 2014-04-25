@@ -1,7 +1,7 @@
 name: "What if EU doesn't exist?"
 description: "What if EU doesn't exist?"
 
-url: "/blog"
+#url: "/blog"
 
 markdown: kramdown
-paginate: 1
+paginate: 5
