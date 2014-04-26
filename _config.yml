@@ -1,7 +1,7 @@
-name: "What if EU doesn't exist?"
-description: "What if EU doesn't exist?"
+name: "What if the EU would not exist?"
+description: "What if the EU would not exist?"
 
-#url: "/blog"
+url: "/blog"
 
 markdown: kramdown
 paginate: 5
