@@ -5,9 +5,11 @@ tags:
 - "Crossing Borders"
 layout: post
 ---
-## Introduction
+## Einführung
 
 Ausgehend von der Beobachtung, dass alle Gesellschaften in sich zunehmend heterogener bzw. ethnokulturell vielfältiger werden, können wir die europäische Idee und die Existenz der EU mit ihrer nationenübergreifenden und –verbindenden Tätigkeit nur befürworten. Der Zusammenschluss und die Kooperation unterschiedlicher Staaten lässt sich in gewisser Weise als Fortführung der innerhalb der Nationalstaaten gegebenen Diversität auf einer transnationalen Ebene begreifen. 
+
+<!--more-->
 
 Auf die Frage „Was wäre, wenn die EU auseinanderbrechen würde?“ – deren Beantwortung gemäß den Vor- und Nachteilen der EU und der Vielfalt an Meinungen der europäischen Bürger sowohl positive als auch negative Szenarien zulässt – möchten wir mit einer Gegenfrage reagieren: „Warum sollte es die EU denn nicht geben? Wäre ihre Abschaffung sinnvoll?“ 
 

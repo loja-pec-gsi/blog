@@ -1,7 +1,7 @@
-{% if include.no_link != false %}
+{% if include.no_link != "true" %}
 <a class="th" href="{{ site.url }}/assets/{{ include.file }}">
-{% endif %}
   <img src="{{ site.url }}/assets/{{ include.file }}" alt="{{ include.alt }}" data-caption="{{ include.alt }}" />
-{% if include.no_link != false %}
 </a>
+{% else %}
+<img class="th" src="{{ site.url }}/assets/{{ include.file }}" alt="{{ include.alt }}" data-caption="{{ include.alt }}" />
 {% endif %}

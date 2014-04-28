@@ -7,6 +7,9 @@ layout: default
     {% if post.content contains '<!--more-->' %}
     	{{ post.content | split:'<!--more-->' | first }}
     	<p><a href="{{ site.url }}{{ post.url }}">Continue reading...</a></p>
+    {% elsif post.content contains '<!--excerpt end-->' %}
+    	{{ post.content | split:'<!--excerpt end-->' | first }}
+    	<p><a href="{{ site.url }}{{ post.url }}">Continue reading...</a></p>
     {% else %}
     	{{ post.content }}
     {% endif %}
@@ -16,17 +19,17 @@ layout: default
     <ul class="pagination">
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-      <li class="arrow"><a href="{{ site.url }}">&laquo;</a></li>
+      <li class="arrow"><a href="{{ site.url }}/">&laquo;</a></li>
       {% else %}
       <li class="arrow"><a href="{{ site.url }}/page{{ paginator.previous_page }}">&laquo;</a></li>
       {% endif %}
     {% else %}
-    <li class="arrow unavailable"><a href="{{ site.url }}">&laquo;</a></li>
+    <li class="arrow unavailable"><a href="{{ site.url }}/">&laquo;</a></li>
     {% endif %}
     {% if paginator.page == 1 %}
-    <li class="current"><a href="{{ site.url }}">1</a></li>
+    <li class="current"><a href="{{ site.url }}/">1</a></li>
     {% else %}
-    <li><a href="{{ site.url }}">1</a></li>
+    <li><a href="{{ site.url }}/">1</a></li>
     {% endif %}
     {% for count in (2..paginator.total_pages) %}
       {% if count == paginator.page %}
@@ -42,3 +45,4 @@ layout: default
     {% endif %}
     </ul>
 </div>
+
