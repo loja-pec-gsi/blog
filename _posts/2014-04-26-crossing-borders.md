@@ -5,7 +5,7 @@ tags:
 - "Crossing Borders"
 layout: post
 ---
-## Einführung
+### Einführung
 
 Ausgehend von der Beobachtung, dass alle Gesellschaften in sich zunehmend heterogener bzw. ethnokulturell vielfältiger werden, können wir die europäische Idee und die Existenz der EU mit ihrer nationenübergreifenden und –verbindenden Tätigkeit nur befürworten. Der Zusammenschluss und die Kooperation unterschiedlicher Staaten lässt sich in gewisser Weise als Fortführung der innerhalb der Nationalstaaten gegebenen Diversität auf einer transnationalen Ebene begreifen. 
 
