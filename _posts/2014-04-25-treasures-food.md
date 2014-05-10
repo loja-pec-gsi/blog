@@ -8,7 +8,7 @@ layout: post
 <!--excerpt start-->
 <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-3" data-clearing>
 <li>{% include image.html file="treasures/Food/th_IMG_0749.JPG" alt="Food" %}</li>
-<li>{% include image.html file="treasures/Food/th_IMG_0271.JPG" alt="Food" %}</li>
+<li>{% include image.html file="treasures/Food/th_IMG_2293.JPG" alt="Food" %}</li>
 <li>{% include image.html file="treasures/Food/th_IMG_0738.JPG" alt="Food" %}</li>
 </ul>
 <!--excerpt end-->
