@@ -6,6 +6,63 @@
     <meta name="description" content="{{ site.description }}">
     <title>{{ site.name }}</title>
     <link rel="stylesheet" href="{{ site.url }}/css/foundation.min.css" />
+    <style type="text/css">
+    h1 a {
+    	margin-left:160px;
+    	background: #333;
+    }
+	
+    h1 {
+		background: repeat-x fixed;
+		background-image: url("{{ site.url }}/assets/logos/logos.png");
+		background-position: 0px 0px;
+		-webkit-animation: slideshow 20s infinite;
+		animation: slideshow 20s infinite;
+	}
+	
+	@-webkit-keyframes slideshow {
+		0% {
+			background-position: 0px 0px; 
+		}
+		
+		25% {
+			background-position: -160px 0px;
+		}
+		
+		50% {
+			background-position: -320px 0px;
+		}
+		
+		75% {
+			background-position: -480px 0px;
+		}
+		
+		100% {
+			background-position: -640px 0px;
+		}
+	}
+	
+	@keyframes slideshow {
+		0% {
+			background-position: 0px 0px; 
+		}
+		
+		25% {
+			background-position: -160px 0px;
+		}
+		
+		50% {
+			background-position: -320px 0px;
+		}
+		
+		75% {
+			background-position: -480px 0px;
+		}
+		
+		100% {
+			background-position: -640px 0px;
+	}
+    </style>
     <script src="{{ site.url }}/js/vendor/modernizr.js"></script>
   </head>
   <body>
